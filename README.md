@@ -16,7 +16,6 @@
 - [Architecture & Pipeline Workflow](#-architecture--pipeline-workflow)
 - [MLOps Best Practices Demonstrated](#-mlops-best-practices-demonstrated)
 - [Model Comparison & Tracking](#-model-comparison--tracking)
-- [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [Environment Configuration](#-environment-configuration)
 - [Pipeline Execution](#-pipeline-execution)
@@ -84,28 +83,6 @@ All model runs record comprehensive classification metrics evaluated on test spl
 | **Random Forest (Tuned)** | `python tune.py` | Grid search over `n_estimators` & `max_depth` with nested MLflow runs | `models_tuned/rf_*.joblib` |
 | **XGBoost Classifier** | `python train_autolog_xgb.py` | Multi-class logloss evaluation with MLflow autologging | `models_xgb/xgb_model.json` |
 | **LightGBM Classifier** | `python train_autolog_lgbm.py` | LightGBM booster with MLflow autologging | `models_lgbm/lgbm_model.txt` |
-
----
-
-## 📁 Repository Structure
-
-```text
-├── data/                       # Preprocessed training & test datasets (generated)
-├── models/                     # Saved baseline Logistic Regression model
-├── models_tuned/               # Saved tuned Random Forest model artifacts
-├── models_xgb/                 # Saved XGBoost model artifacts
-├── models_lgbm/                # Saved LightGBM model artifacts
-├── .env.example                # Environment variable configuration template
-├── .gitignore                  # Git ignore rules for data, credentials, and artifacts
-├── dvc.yaml                    # DVC pipeline orchestration configuration
-├── preprocess.py               # Data ingestion, label encoding, and split script
-├── train.py                    # Baseline Logistic Regression model training script
-├── tune.py                     # Random Forest grid search hyperparameter tuning script
-├── train_autolog_xgb.py        # XGBoost classifier training script with MLflow autologging
-├── train_autolog_lgbm.py        # LightGBM classifier training script with MLflow autologging
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
-```
 
 ---
 
