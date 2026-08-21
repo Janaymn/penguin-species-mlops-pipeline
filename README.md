@@ -180,7 +180,7 @@ Open `http://localhost:5000` in your browser to inspect parameters, metrics, run
 
 **Jana Ayman** — ML / MLOps Engineer  
 * GitHub: [@Janaymn](https://github.com/Janaymn)  
-* Repository: [Janaymn/MLops_Task3](https://github.com/Janaymn/MLops_Task3)
+* Repository: [Janaymn/penguin-species-mlops-pipeline](https://github.com/Janaymn/penguin-species-mlops-pipeline)
 
 ---
 *Feel free to star ⭐️ this repository if you found it useful!*
