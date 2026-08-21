@@ -178,7 +178,7 @@ Open `http://localhost:5000` in your browser to inspect parameters, metrics, run
 
 ## 👨‍💻 Author & Contact
 
-**Ayman** — ML / MLOps Engineer  
+**Jana Ayman** — ML / MLOps Engineer  
 * GitHub: [@Janaymn](https://github.com/Janaymn)  
 * Repository: [Janaymn/MLops_Task3](https://github.com/Janaymn/MLops_Task3)
 
